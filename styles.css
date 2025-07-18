@@ -1,0 +1,133 @@
+
+
+
+body {
+    text-align: center;
+    font-family: "Corben", serif;
+    /* font-family: 'Cormorant Garamond', serif; */
+    background: linear-gradient(#000814 0.5%, #d00000 20%, #d00000 80%, #000814 100%);
+    background-size: cover;
+    color:#00FFFF;
+    text-shadow: 0.5px 5.5px 10.5px #000814;
+}
+
+/* #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Esto de arriba es necesario para añadir un background color en algún sitio específico.
+    No lo usé porque no me gusta como queda la estética.
+
+} */
+
+/* h2, h4 {
+    background: black;
+    Esto va junto con el ejemplo que está comentado arriba.
+    color: #a2d2ff;
+} */
+
+/* #name,{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+#age{
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    Pertenece al mismo ejemplo que se está comentando arriba
+} */
+
+#name, #age {
+    color: #d00000;
+    text-shadow: 0.5px 5.5px 10.5px #000814;
+    margin: 10px;
+    font-weight: 700;
+}
+
+h1, h5 {
+    color: #00FFFF;
+    text-shadow: 0.5px 0.5px 0px #d00000;
+    margin: 0;
+}
+
+#avatar {
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid #00FFFF;
+    box-shadow: 0px 0px 10px #00FFFF;
+    margin-top: 30px;
+}
+
+.gift-title {
+    margin: 0;
+}
+
+.gift-hint {
+    margin: 0 0 25px 0;
+}
+
+#happy-gif,
+#hot-gif,
+#car-gif,
+#mmg-gif,
+#millionaire-gif {
+    margin: 10px auto 35px auto;
+    width: 400px;
+    height: 400px;
+    border: 5px solid #00FFFF;
+    border-radius: 10px;
+    background-image: url(images/Gift.jpg);
+    background-size: cover;
+}
+
+#happy-gif:hover {
+    background-image: url(images/milkExplosion.gif);
+}
+
+#hot-gif:hover {
+    background-image: url(images/angelinaLipBite.gif);
+}
+
+#car-gif:hover {
+    background-image: url(images/coolCar.gif);
+}
+
+#mmg-gif:hover {
+    background-image: url(images/mmg.gif);
+}
+
+#millionaire-gif:hover {
+    background-image: url(images/millionaire.gif);
+}
+
+#footer {
+    width: 400px;
+    margin: 40px auto 20px auto;
+    /* font-style: italic; */
+}
+
+#text-color {
+    color: #00FFFF;
+}
+
+
+.weight400 {
+    font-weight: 400;
+}
+
+.weight700 {
+    font-weight: 700;
+}
+
+/* #mmg1{
+    margin-bottom: 0;
+}
+
+#mmg2 {
+    margin-top: 0;
+} */
